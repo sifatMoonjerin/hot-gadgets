@@ -1,3 +1,23 @@
 .white-bg{
     background-color: white;
 }
+
+
+.carousel-indicators li{
+    height: 6px;
+    width: 9px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+.carousel-indicators .active{
+    height: 7px;
+    width: 30px;
+    border-radius: 14px;
+    background-image: linear-gradient(to right, #ff8206, #ffd019);
+}
+
+.carousel-item{
+    padding: 10px 40px 20px;
+}
+
