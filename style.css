@@ -1,44 +1,45 @@
-.white-bg{
-    background-color: white;
+.white-bg {
+  background-color: white;
 }
 
-
-
-.container{
-    margin-bottom: 50px;
+.container {
+  margin-bottom: 50px;
 }
 
-.carousel-indicators li{
-    height: 6px;
-    width: 9px;
-    border-radius: 50%;
-    background-color: gray;
+.carousel-indicators div {
+  height: 7px;
+  width: 10px;
+  border-radius: 6px;
+  background-color: rgba(128, 128, 128, 0.3);
+  margin: 10px 3px;
 }
 
-.carousel-indicators .active{
-    height: 7px;
-    width: 30px;
-    border-radius: 14px;
-    background-image: linear-gradient(to right, #ff8206, #ffd019);
+.carousel-indicators .active {
+  height: 7px;
+  width: 30px;
+  border-radius: 14px;
+  background-image: linear-gradient(to right, #ff8206, #ffd019);
 }
 
-.carousel-item{
-    padding: 10px 40px 20px;
+.carousel-item {
+  padding: 10px 40px 20px;
 }
 
-.title-block{
-    padding: 20px 0;
+.card {
+  border: none;
+  box-shadow: 1px 1px 10px #80808080;
+  border-radius: 10px;
 }
 
-.card{
-    border: none;
-    box-shadow: 1px 1px 10px #80808080;
-    border-radius: 10px;
+.card-footer {
+  background-color: white;
+  border-top: none;
+  padding-bottom: 1.5rem;
 }
 
-.card-footer{
-    background-color: white;
-    border-top: none;
-    padding-bottom: 1.5rem;
+.underline-block {
+  width: 100px;
+  height: 8px;
+  border-radius: 10px;
+  background-image: linear-gradient(to right, #ff8206, #ffd019);
 }
-
