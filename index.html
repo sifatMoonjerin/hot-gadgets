@@ -15,11 +15,11 @@
   </head>
   <body>
     <!--NavBar-->
-    <div class="container" style="margin-bottom: 0px;">
+    <div id="home" class="container" style="margin-bottom: 0px;">
       <nav
         class="navbar navbar-expand-lg navbar-light d-flex justify-content-between  white-bg"
       >
-        <a class="navbar-brand" href="#"
+        <a class="navbar-brand" href="#home"
           ><img class="w-75" src="images/logo.png" alt="logo"
         /></a>
         <div>
@@ -36,12 +36,12 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="#"
+              <a class="nav-item nav-link active" href="#home"
                 >Home<span class="sr-only">(current)</span></a
               >
-              <a class="nav-item nav-link" href="#">Product</a>
-              <a class="nav-item nav-link" href="#">About Us</a>
-              <a class="nav-item nav-link" href="#">Contact Us</a>
+              <a class="nav-item nav-link" href="#smartphone">Products</a>
+              <a class="nav-item nav-link" href="#categories">Categories</a>
+              <a class="nav-item nav-link" href="#subscribe">Subscribe</a>
             </div>
           </div>
         </div>
@@ -108,7 +108,7 @@
 
     <!--Smartphone-->
 
-    <div class="container">
+    <div id="smartphone" class="container">
       <div class="pb-4 d-flex justify-content-between align-items-center">
         <h4>Smartphone</h4>
         <small class="text-warning">See All</small>
@@ -158,7 +158,7 @@
 
     <!--Laptop-->
 
-    <div class="container">
+    <div id="laptop" class="container">
       <div class="pt-4 pb-4 d-flex justify-content-between align-items-center">
         <h4>Laptop</h4>
         <small class="text-warning">See All</small>
@@ -208,7 +208,7 @@
 
     <!--Categories-->
 
-    <div class="container">
+    <div id="categories" class="container">
     
         <div class=" pt-5 pb-5 d-flex flex-column justify-content-center align-items-center">
           <h4>Categories</h4>
@@ -217,22 +217,22 @@
 
         <div class="row">
           <div class="col-md-3 d-flex flex-column justify-content-center">
-            <div class="card mb-3">
-              <img class="card-img-top" src="images/Categories/bag.png" alt="Card image cap">
+            <div id="bag-cat" class="card mb-3 d-flex align-items-center">
+              <img class="card-img-top w-50 pt-4" src="images/Categories/bag.png" alt="Card image cap">
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
+                <h5 class="card-title">Bag</h5>
               </div>
             </div>
           </div>
           <div class="col-md-3 d-flex flex-column justify-content-center">
-            <div class="card mb-3">
-              <img class="card-img-top" src="images/Categories/perfume.png" alt="Card image cap">
+            <div id="perfume-cat" class="card mb-3 d-flex align-items-center">
+              <img class="card-img-top w-50 pt-4" src="images/Categories/perfume.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
               </div>
             </div>
-            <div class="card mb-3">
-              <img class="card-img-top" src="images/Categories/shoe.png" alt="Card image cap">
+            <div id="shoe-cat" class="card mb-3 d-flex align-items-center">
+              <img class="card-img-top w-50 pt-4" src="images/Categories/shoe.png" alt="Card image cap">
               <div class="card-body">
                 <h5 class="card-title">Card title</h5>
               </div>
@@ -240,11 +240,9 @@
             
           </div>
           <div class="col-md-6">
-            <img class="img-fluid" src="images/Categories/pale-order.png" alt="order">
+            <img class="img-fluid pt-md-5" src="images/Categories/pale-order.png" alt="order">
           </div>
         </div>
-      
-
     </div>
 
 
