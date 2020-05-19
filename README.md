@@ -2,7 +2,7 @@
 
 [Website](https://sifatmoonjerin.github.io/hot-gadgets/)
 
-A dummy e-commerce gadget store.
+A dummy online gadget store.
 
 ### Technology
 - HTML5
